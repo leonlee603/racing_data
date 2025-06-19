@@ -1,0 +1,7 @@
+@config "@/tailwind.config.js"; /* Adjust the path if needed */
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+}
