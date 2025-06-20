@@ -14,6 +14,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "03:00:00",
       date_start: "2025-02-26T07:00:00+00:00",
       year: 2025,
+      img: "",
     },
     {
       meeting_key: 1254,
@@ -30,6 +31,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "11:00:00",
       date_start: "2025-03-14T01:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r1.avif",
     },
     {
       meeting_key: 1255,
@@ -45,6 +47,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "08:00:00",
       date_start: "2025-03-21T03:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r2.avif",
     },
     {
       meeting_key: 1256,
@@ -60,6 +63,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "09:00:00",
       date_start: "2025-04-04T02:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r3.avif",
     },
     {
       meeting_key: 1257,
@@ -75,6 +79,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "03:00:00",
       date_start: "2025-04-11T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r4.avif",
     },
     {
       meeting_key: 1258,
@@ -90,6 +95,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "03:00:00",
       date_start: "2025-04-18T13:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r5.avif",
     },
     {
       meeting_key: 1259,
@@ -105,6 +111,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-04:00:00",
       date_start: "2025-05-02T16:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r6.avif",
     },
     {
       meeting_key: 1260,
@@ -121,6 +128,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-05-16T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r7.avif",
     },
     {
       meeting_key: 1261,
@@ -136,6 +144,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-05-23T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r8.avif",
     },
     {
       meeting_key: 1262,
@@ -151,6 +160,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-05-30T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r9.avif",
     },
     {
       meeting_key: 1263,
@@ -166,6 +176,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-04:00:00",
       date_start: "2025-06-13T17:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r10.avif",
     },
     {
       meeting_key: 1264,
@@ -181,6 +192,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-06-27T10:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r11.avif",
     },
     {
       meeting_key: 1265,
@@ -196,6 +208,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "01:00:00",
       date_start: "2025-07-04T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r12.avif",
     },
     {
       meeting_key: 1266,
@@ -211,6 +224,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-07-25T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r13.avif",
     },
     {
       meeting_key: 1267,
@@ -226,6 +240,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-08-01T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r14.avif",
     },
     {
       meeting_key: 1268,
@@ -241,6 +256,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-08-29T10:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r15.avif",
     },
     {
       meeting_key: 1269,
@@ -256,6 +272,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "02:00:00",
       date_start: "2025-09-05T11:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r16.avif",
     },
     {
       meeting_key: 1270,
@@ -272,6 +289,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "04:00:00",
       date_start: "2025-09-19T09:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r17.avif",
     },
     {
       meeting_key: 1271,
@@ -288,6 +306,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "08:00:00",
       date_start: "2025-10-03T09:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r18.avif",
     },
     {
       meeting_key: 1272,
@@ -304,6 +323,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-05:00:00",
       date_start: "2025-10-17T17:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r19.avif",
     },
     {
       meeting_key: 1273,
@@ -320,6 +340,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-06:00:00",
       date_start: "2025-10-24T18:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r20.avif",
     },
     {
       meeting_key: 1274,
@@ -336,6 +357,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-03:00:00",
       date_start: "2025-11-07T14:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r21.avif",
     },
     {
       meeting_key: 1275,
@@ -351,6 +373,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "-08:00:00",
       date_start: "2025-11-20T02:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r22.avif",
     },
     {
       meeting_key: 1276,
@@ -366,6 +389,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "03:00:00",
       date_start: "2025-11-28T13:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r23.avif",
     },
     {
       meeting_key: 1277,
@@ -382,6 +406,7 @@ export default defineEventHandler((event) => {
       gmt_offset: "04:00:00",
       date_start: "2025-12-05T09:30:00+00:00",
       year: 2025,
+      img: "/tracks/2025_track_r24.avif",
     },
   ];
 });

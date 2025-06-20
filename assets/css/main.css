@@ -2,6 +2,15 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-.btn {
-  @apply bg-blue-500 text-white px-4 py-2 rounded;
+:root {
+  /* --ui-cardSecondary: rgb(21, 21, 30) */
 }
+
+body {
+  background-color: rgb(21, 21, 30)
+}
+
+.btn {
+  @apply rounded bg-blue-500 px-4 py-2 text-white;
+}
+
