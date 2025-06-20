@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-1 rounded-md bg-black p-4" :class="status">
+  <div class="schedule-card flex flex-col gap-1 rounded-md p-4" :class="status">
     <div class="flex items-center justify-between">
       <span class="meeting-round text-muted text-xs font-bold uppercase">{{
         index === 0 ? "Testing" : `Round ${index}`
@@ -19,7 +19,7 @@
       </div>
       <div
         v-if="meeting.status === 'future'"
-        class="rounded-md bg-[#15151e] px-2.5 py-1 text-xs font-bold"
+        class="rounded-md bg-white px-2.5 py-1 text-xs font-bold text-black"
       >
         Upcoming
       </div>
@@ -84,11 +84,22 @@ const status = props.meeting.status;
 </script>
 
 <style lang="scss" scoped>
-.upcoming {
-  background-color: rgb(225, 6, 0);
-  .meeting-round,
-  .meeting-name {
-    color: white;
+.schedule-card {
+  &.future {
+    background-color: transparent;
+    border: 1px solid #393e47;
+  }
+  &.pass {
+    background-color: black;
+    border: 1px solid black;
+  }
+  &.upcoming {
+    background-color: rgb(225, 6, 0);
+    border: 1px solid rgb(225, 6, 0);
+    .meeting-round,
+    .meeting-name {
+      color: white;
+    }
   }
 }
 </style>

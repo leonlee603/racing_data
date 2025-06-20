@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="py-6 font-bold">
     <NuxtLink to="/">Home</NuxtLink>
     <NuxtLink to="/schedule">Schedule</NuxtLink>
   </header>

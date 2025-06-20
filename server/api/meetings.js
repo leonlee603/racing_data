@@ -1,4 +1,8 @@
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
+  const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  
+  await sleep(2000); // Wait for 2 seconds (2000 ms)
+  
   return [
     {
       meeting_key: 1253,
