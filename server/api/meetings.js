@@ -1,7 +1,7 @@
 export default defineEventHandler(async (event) => {
-  const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-  
-  await sleep(2000); // Wait for 2 seconds (2000 ms)
+  // // Simulate loading time for 2 seconds
+  // const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  // await sleep(2000);
   
   return [
     {
