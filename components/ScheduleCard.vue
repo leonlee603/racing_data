@@ -8,7 +8,7 @@
         v-if="meeting.status === 'pass'"
         class="flex items-center gap-1.5 rounded-md bg-[#15151e] px-2.5 py-1 text-xs font-bold"
       >
-        <Icon name="fluent-emoji-flat:chequered-flag" />
+        <Icon name="fluent-emoji-flat:chequered-flag" class="w-[12px]" />
         {{ `${day} - ${day + 2} ${month}` }}
       </div>
       <div
@@ -26,7 +26,7 @@
     </div>
 
     <div class="flex items-center gap-3">
-      <Icon :name="ctyFlag" />
+      <Icon :name="ctyFlag" class="w-[16px]"/>
       <span class="text-2xl font-bold"> {{ meeting.country_name }}</span>
     </div>
     <div class="meeting-name text-muted mb-5 mt-1.5 grow text-sm font-bold">

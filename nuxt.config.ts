@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/icon",
     "@nuxtjs/color-mode",
+    "@nuxt/image",
   ],
   css: ["~/assets/css/main.css"],
   icon: {
